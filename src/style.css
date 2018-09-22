@@ -178,7 +178,7 @@ header {
 
 .section {
     max-width: 700px;
-    max-height: 500px;
+    max-height: 700px;
     width: 100%;
     margin: 30px auto;
 }
@@ -210,10 +210,35 @@ header {
 
 .contact {
     width: 100%;
+    padding: 10px 0;
     margin: 0 auto;
     max-width: none !important;
     background-image: linear-gradient(278deg, #a50085, #e53768);
     color: #fff;
+}
+
+.contact .section__title--centered {
+    margin: 20px 46%;
+}
+
+.contact__form {
+    width: 66%;
+    max-width: 300px;
+    margin: 20px 36%;
+}
+
+.contact__form__item {
+    margin: 10px 0;
+}
+
+.contact__form__item--centered {
+    margin: 0px 35%;
+}
+
+.contact__form__item input,
+.contact__form__item textarea {
+    margin: 5px 0;
+    width: 100%;
 }
 
 .experience__description__box {
