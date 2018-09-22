@@ -192,7 +192,7 @@ header {
 }
 
 .section__title--centered {
-
+    margin: 20px 33%;
 }
 
 .section__title--strong {
@@ -234,4 +234,32 @@ header {
     top: -200px;
     left: 350px;
     z-index: -1;
+}
+
+.oldhousers {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.oldhouser {
+    width: 30%;
+    display: inline-block;
+    margin: 20px 10px;
+    vertical-align: top;
+}
+
+.oldhouser__wrapper {
+    height: 180px;
+}
+
+.oldhouser__name {
+    vertical-align: bottom;
+}
+
+.oldhouser__image {
+    vertical-align: top;
+    margin: 0 17%;
+    width: 90px;
 }
