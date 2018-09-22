@@ -4,7 +4,8 @@
   "description": "TheHaus project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack && ncp src/static/ dist/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,20 @@
   "bugs": {
     "url": "https://github.com/miguelarian/thehaus/issues"
   },
-  "homepage": "https://github.com/miguelarian/thehaus#readme"
+  "homepage": "https://github.com/miguelarian/thehaus#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "http-server": "^0.8.5",
+    "less-loader": "^2.2.0",
+    "ncp": "^2.0.0",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.12.3",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
 }
