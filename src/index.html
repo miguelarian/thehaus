@@ -5,11 +5,21 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <script src="bundle.js"></script>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>The House</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126244566-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126244566-1');
+        </script>
     </head>
     <body>
         <header>
-            <img src="static/logo.png" alt="logo" class="logo">
+            <a href="#" class="logo"><img src="static/logo.png" alt="logo" class="logo"></a>
             <nav class="nav-bar">
                 <a href="#experience">Experiencia The House</a>
                 <a href="#rooms">Habitaciones</a>
@@ -18,23 +28,23 @@
                 <a href="#contact"><button type="button" class="btn btn--primary">Apply</button></a>
             </nav>
         </header>
-        <div>
+        <div class="content">
             <section id="experience">
                 <div>
-                    <h2>Una experiencia de Coliving única</h2>
+                    <h2 class="section__title section__title--strong">Vive y trabaja en un entorno emprendedor</h2>
                     <div>
                         <p>Primera casa para <b>emprendedores</b> en Madrid, elige el tiempo que vas a estar, mira quien vive ahora y reserva tu habitación.</p>
                         <p>Aprovecha la oportunidad para conocer gente con la que compartes inquietudes.</p>
                     </div>
-                    <img src="" alt="houser-experience">
+                    <img class="experience__image" src="static/experience.jpg" alt="houser-experience">
                 </div>
                 <div>
-                    <h3>Experiencia The House</h3>
+                    <span class="section__title">Experiencia The House</span>
                     <p>Todas las personas que entran en The House son seleccionadas para conseguir algo único. Solo podrás entrar durante 1 año.</p>
                 </div>
             </section>
             <section id="rooms">
-                <h3>Habitacioness</h3>
+                <span class="section__title">Habitacioness</span>
                 <ul>
                     <li>r1</li>
                     <li>r2</li>
@@ -42,7 +52,7 @@
                 </ul>
             </section>
             <section id="how">
-                <h3>¿Cómo funciona?</h3>
+                <span class="section__title">¿Cómo funciona?</span>
                 <ol>
                     <li>Elige tu habitación y reserva una visita para conocer en persona a los que ya viven en The House</li>
                     <li>Presenta tu idea de negocio al comité de The House para que aceptemos tu candidatura.</li>
@@ -50,7 +60,7 @@
                 </ol>
             </section>
             <section id="services">
-                <h3>Servicios</h3>
+                <span class="section__title">Servicios</span>
                 <ul>
                     <li>
                         <span><span>icon</span>Networking</span>
@@ -70,8 +80,12 @@
                     </li>
                 </ul>
             </section>
-            <section id="contact">
-                <h3>Contacto</h3>
+            <section id="oldhousers">
+                    <span class="section__title">Antiguos housers</span>
+                    
+            </section>
+            <section id="contact" class="contact">
+                <span class="section__title section__title--secondary">Contacto</span>
                 <p>Déjanos tus datos para que estudiemos tu candidatura a The House</p>
                 <div>
                     <div>
