@@ -1,0 +1,71 @@
+/* presets */
+
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+  }
+  
+  html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    margin: 0;
+    color: #565656;
+  }
+
+  a, a:hover {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+  
+  
+/* custom */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    background-attachment: #fff;
+}
+
+.title {
+    font-size: 36px;
+    color: #e53768;
+}
+
+.nav-bar {
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    width: 167px;
+    height: 63px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 175px;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn--primary {
+    background-image: linear-gradient(274deg, #a50085, #e53768);
+    color: #ffffff;
+}
+
+.btn--secondary {
+    background-color: #ffffff;
+    color: #e53768;
+}

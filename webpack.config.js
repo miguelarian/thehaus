@@ -43,6 +43,11 @@ module.exports = {
 		]
 	},
 
+	plugins: ([
+		// Write out CSS bundle to its own file:
+		new ExtractTextPlugin('style.css', { allChunks: true })
+	]),
+
 	// Pretty terminal output
 	stats: { colors: true },
 
