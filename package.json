@@ -1,0 +1,19 @@
+{
+  "name": "thehaus",
+  "version": "1.0.0",
+  "description": "TheHaus project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelarian/thehaus.git"
+  },
+  "author": "TheHaus team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelarian/thehaus/issues"
+  },
+  "homepage": "https://github.com/miguelarian/thehaus#readme"
+}
