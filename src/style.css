@@ -144,6 +144,10 @@ header {
     color: #e53768;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .how__image{
     width: 300px;
     height: 200px;
@@ -191,7 +195,7 @@ header {
     font-size: 18px;
 }
 
-.section__title--centered {
+.section__title--ed {
     margin: 20px 33%;
 }
 
@@ -262,4 +266,14 @@ header {
     vertical-align: top;
     margin: 0 17%;
     width: 90px;
+}
+
+.social__list {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social__item {
+    margin: 10px;
 }
