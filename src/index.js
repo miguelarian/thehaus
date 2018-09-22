@@ -1,4 +1,5 @@
-window.onload = function(){
+
+function initScroll(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
   
@@ -23,6 +24,23 @@ window.onload = function(){
     });
   }
 
-  $('#submit').click(function (event) {
+  function submit() {
+
+    let email = $('#email').val()
+    let li = $('#email').val()
+    let comment  = $('#email').val()
+
+
     alert('submit')
+  }
+
+
+  $(document).ready(function (event) {
+
+    initScroll()
+
+    $('#submit').click(function (event) {
+      event.preventDefault()
+      submit()
+    })
   })
