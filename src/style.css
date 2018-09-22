@@ -7,12 +7,7 @@
     -moz-osx-font-smoothing: grayscale;
     font-kerning: auto;
   }
-  
-  html {
-    font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-  }
-  
+
   body {
     color: #565656;
     margin: 0;
@@ -144,6 +139,10 @@ header {
     color: #e53768;
 }
 
+.btn-hablemos {
+    margin: 0 42%;
+}
+
 .italic {
     font-style: italic;
 }
@@ -178,7 +177,7 @@ header {
 
 .section {
     max-width: 700px;
-    max-height: 700px;
+    max-height: 450px;
     width: 100%;
     margin: 30px auto;
 }
@@ -192,6 +191,7 @@ header {
     display: inline-block;
     margin: 0 auto;
     width: 100%;
+    max-width: 300px;
     font-size: 18px;
 }
 
@@ -218,13 +218,15 @@ header {
 }
 
 .contact .section__title--centered {
-    margin: 20px 46%;
+    max-width: 300px;
+    width: 100px;
+    margin: 20px 35%;
 }
 
 .contact__form {
     width: 66%;
     max-width: 300px;
-    margin: 20px 36%;
+    margin: 20px 39%;
 }
 
 .contact__form__item {
@@ -250,10 +252,6 @@ header {
     width: 40%;
     top: 50px;
     left: 100px;
-}
-
-.experience__description {
-
 }
 
 .experience__description__image {

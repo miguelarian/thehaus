@@ -22,3 +22,7 @@ window.onload = function(){
       } // End if
     });
   }
+
+  $('#submit').click(function (event) {
+    alert('submit')
+  })

@@ -3,8 +3,8 @@
         <meta charset="UTF-8">
         <link rel="icon" href="static/favicon.png" sizes="16x16">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="index.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>The House</title>
@@ -45,7 +45,7 @@
                 <span class="section__title section__title--centered">Experiencia The House</span>
                 <p>Todas las personas que entran en The House son seleccionadas para conseguir algo único. Solo podrás entrar durante 1 año y tendrás que exprimir al máximo tu estancia junto a los demás emprendedores que viven en la casa.</p>
                 <p>¿Quieres ser el próximo Houser?</p>
-                <a href="#contact"><button type="button" class="btn btn--primary">Hablemos</button></a>
+                <a href="#contact"><button type="button" class="btn btn--primary btn-hablemos">Hablemos</button></a>
             </section>
             <section id="how" class="section">
                 <span class="section__title section__title--centered">¿Cómo funciona?</span>
@@ -110,8 +110,8 @@
                 </span>
             </section>
             <section id="contact" class="section section--full contact">
-                <span class="section__title section__title--secondary section__title--centered">Contacto</span>
                 <div class="contact__form">
+                    <span class="section__title section__title--secondary section__title--centered">Contacto</span>
                     <p>Déjanos tus datos para que estudiemos tu candidatura a The House</p>
                     <div class="contact__form__item">
                         <div>* Correo electrónico</div>
@@ -123,10 +123,10 @@
                     </div>
                     <div class="contact__form__item">
                         <div for="comment">Cuéntanos tu historia</div>
-                        <textarea name="comment" cols="30" rows="10" placeholder="Háblanos de ti..."></textarea>
+                        <textarea name="comment" cols="30" rows="5" placeholder="Háblanos de ti..."></textarea>
                     </div>
                     <div class="contact__form__item contact__form__item--centered">
-                        <button type="button" class="btn btn--secondary">Enviar</button>
+                        <button id="submit" class="btn btn--secondary">Enviar</button>
                     </div>
                 </div>
             </section>
