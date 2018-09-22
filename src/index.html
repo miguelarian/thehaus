@@ -22,45 +22,41 @@
             <a href="#" class="logo"><img src="static/logo.png" alt="logo" class="logo"></a>
             <nav class="nav-bar">
                 <a href="#experience">Experiencia The House</a>
-                <a href="#rooms">Habitaciones</a>
                 <a href="#how">¿Cómo funciona?</a>
                 <a href="#services">Servicios</a>
                 <a href="#contact"><button type="button" class="btn btn--primary">Apply</button></a>
             </nav>
         </header>
         <div class="content">
-            <section id="experience">
-                <div>
-                    <h2 class="section__title section__title--strong">Vive y trabaja en un entorno emprendedor</h2>
-                    <div>
-                        <p>Primera casa para <b>emprendedores</b> en Madrid, elige el tiempo que vas a estar, mira quien vive ahora y reserva tu habitación.</p>
-                        <p>Aprovecha la oportunidad para conocer gente con la que compartes inquietudes.</p>
+            <section id="experience" class="section">
+                <div class="experience__description">
+                    <div class="experience__description__box">
+                        <h2 class="section__title section__title--strong">Vive y trabaja en un entorno emprendedor</h2>
+                        <div>
+                            <p>Primera casa para <b>emprendedores</b> en Madrid. Te ayudamos a mejorar tu negocio con la comunidad The House.</p>
+                            <p>Aprovecha la oportunidad para acelerar tu idea a un ritmo increíble.</p>
+                        </div>
                     </div>
-                    <img class="experience__image" src="static/experience.jpg" alt="houser-experience">
-                </div>
-                <div>
-                    <span class="section__title">Experiencia The House</span>
-                    <p>Todas las personas que entran en The House son seleccionadas para conseguir algo único. Solo podrás entrar durante 1 año.</p>
+                    <img class="experience__description__image" src="static/experience.jpg" alt="houser-experience">
                 </div>
             </section>
-            <section id="rooms">
-                <span class="section__title">Habitacioness</span>
-                <ul>
-                    <li>r1</li>
-                    <li>r2</li>
-                    <li>r3</li>
-                </ul>
+            <section id="thehouse" class="section">
+                <span class="section__title section__title--centered">Experiencia The House</span>
+                <p>Todas las personas que entran en The House son seleccionadas para conseguir algo único. Solo podrás entrar durante 1 año y tendrás que exprimir al máximo tu estancia junto a los demás emprendedores que viven en la casa.</p>
+                <p>¿Quieres ser el próximo Houser?</p>
+                <a href="#contact"><button type="button" class="btn btn--primary">Hablemos</button></a>
             </section>
-            <section id="how">
-                <span class="section__title">¿Cómo funciona?</span>
-                <ol>
-                    <li>Elige tu habitación y reserva una visita para conocer en persona a los que ya viven en The House</li>
-                    <li>Presenta tu idea de negocio al comité de The House para que aceptemos tu candidatura.</li>
-                    <li>Empieza a vivir la experiencia más aceleradora de tu vida</li>
-                </ol>
+            <section id="how" class="section">
+                <span class="section__title section__title--centered">¿Cómo funciona?</span>
+                <div class="how__list">
+                    <div class="how__list__item"><span class="how__list__index--bold">1.</span>Elige tu habitación y reserva una visita para conocer en persona a los que ya viven en The House.</div>
+                    <div class="how__list__item"><span class="how__list__index--bold">2.</span>Presenta tu idea de negocio al comité de The House para que aceptemos tu candidatura.</div>
+                    <div class="how__list__item"><span class="how__list__index--bold">3.</span>Empieza a vivir la experiencia más aceleradora de tu vida.</div>
+                </div>
+                <img class="how__image" src="static/how.jpg" alt="houser-experience">
             </section>
-            <section id="services">
-                <span class="section__title">Servicios</span>
+            <section id="services" class="section">
+                <span class="section__title section__title--centered">¿Qué vas a conseguir?</span>
                 <ul>
                     <li>
                         <span><span>icon</span>Networking</span>
@@ -80,12 +76,26 @@
                     </li>
                 </ul>
             </section>
-            <section id="oldhousers">
-                    <span class="section__title">Antiguos housers</span>
-                    
+            <section id="oldhousers" class="section">
+                <span class="section__title section__title--centered">Antiguos housers</span>
+                <span>
+                    <img src="static/exhouser1.png" alt="exhouser">
+                    <p>En The House conocí a mi socio y CTO. Entonces eramos 2 y en 3 años hemos crecido hasta 24 personas.</p>
+                    <p>Alex Pinchuk - CEO en SkyGate</p>
+                </span>
+                <span>
+                    <img src="static/exhouser2.png" alt="exhouser">
+                    <p>Con el apoyo que te dan y la gente que conoces puedes crear algo muy grande.</p>
+                    <p>John Sculter - CTO en MaxiFilmes</p>
+                </span>
+                <span>
+                    <img src="static/exhouser3.png" alt="exhouser">
+                    <p>The House te ayuda en el momento que más lo necesitas, cuando empiezas.</p>
+                    <p>Macaulay Culkin - CPO en DragsMenu</p>
+                </span>
             </section>
-            <section id="contact" class="contact">
-                <span class="section__title section__title--secondary">Contacto</span>
+            <section id="contact" class="contact section--full">
+                <span class="section__title section__title--secondary section__title--centered">Contacto</span>
                 <p>Déjanos tus datos para que estudiemos tu candidatura a The House</p>
                 <div>
                     <div>
