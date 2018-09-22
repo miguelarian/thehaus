@@ -24,23 +24,6 @@ function initScroll(){
     });
   }
 
-  function submit() {
-
-    let email = $('#email').val()
-    let li = $('#email').val()
-    let comment  = $('#email').val()
-
-
-    alert('submit')
-  }
-
-
   $(document).ready(function (event) {
-
     initScroll()
-
-    $('#submit').click(function (event) {
-      event.preventDefault()
-      submit()
-    })
   })
