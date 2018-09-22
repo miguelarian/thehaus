@@ -65,11 +65,15 @@ header {
     opacity: 0.5;
 }
 
-.logo {
+.nav-bar .logo {
     display: inline-block;
     width: 167px;
     height: 63px;
     margin: 0 20px;
+}
+
+.logo:hover {
+    opacity: 1 !important;
 }
 
 .service {
